@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    /* colors */
+    --first-color: #6bbcff;
+    --first-color-dark: #3fa7fc;
+    --first-color-darkest: #00335E;
+    --first-color-light: #9BA2AA;
+    --first-color-lighten: #f2f2f2;
+
+    /* fonts */
+    --main-font: 'Luckiest Guy', cursive;
+    --body-font: 'Poppins', sans-serif;
+}
+    
+/* Gerais */
+body {
+    font-family: var(--body-font);
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 60px 0 20px 0;
+    /* width: min(80vw, 1500px); */
+}
+
+/* p, li {
+    color: #444;
+    font-size: 14px;
+} */
+
+/* Barra de navegação */
+header, .navbar {
+    background-color: var(--first-color-lighten);
+}
+
+.navbar {
+    border-radius: 0 0 2rem 1rem;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 160px;
+}
+
+.nav-brand {
+    padding: 0;
+    color: #FFF;
+}
+
+#navbar-links a{
+    color: var(--first-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#navbar-links a:hover{
+    /* color: #fff; */
+    color:  var(--first-color-dark);
+}
+
+/* .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+} */
+
+/* main */
+.container-fluid .row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.service-box h2 {
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.service-box h4:hover {
+    color: var(--first-color);
+}
+
+.service-box h2:hover {
+    color: var(--first-color);
+}
+
+.service-box h5:hover {
+    color: var(--first-color);
+}
+
+.area-btn h3:hover {
+    color: var(--first-color);
+}
+
+.area-btn button {
+    background-color: var(--first-color);
+    color: white;
+    border: none;
+    border-radius: 18.8px;
+    font-weight: bold;
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.3rem;
+}
+
+/* footer */
+.footer {
+    padding: 0;
+    border-radius: 2rem 1rem 0 0;
+}
+
+.area-footer .row {
+    height: 60px;
+    background-color: var(--first-color-lighten);
+}
+
+.area-footer .col-md-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-footer .col-md-12 .img-footer {
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 460px;
+}
+
+.form-cadastrarUsuario .input-group-text {
+    background-color: transparent;
+    border-right: 0px solid white;
+}
+
+.texto-footer {
+    color: var(--first-color-light);
+    margin: 0;
+}

@@ -20,6 +20,9 @@ const mainController = {
     },
     intensive:(req, res, next) => {
         res.render("intensive")
+    },
+    create:(req, res, next) =>{
+        res.render('create')
     }
 }
 

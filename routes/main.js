@@ -20,6 +20,9 @@ router.get('/beginner', mainController.beginner)
 /* GET advanced page. */
 router.get('/advanced', mainController.advanced)
 
+/*GET Create new class */
+router.get('/create', mainController.create)
+
 /* GET intensive page. */
 router.get('/intensive', mainController.intensive)
 

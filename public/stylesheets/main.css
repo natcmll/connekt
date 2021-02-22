@@ -100,6 +100,9 @@ a {
     height: 60px;
     font-size: var(--normal-font-size);
 }
+.main-forms{
+  align-items: center;
+}
 
 .second-button {
   background-color: var(--first-color);

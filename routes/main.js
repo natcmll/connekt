@@ -14,4 +14,13 @@ router.get('/config', mainController.config)
 /* GET delete page */
 router.get('/delete', mainController.delete)
 
+/* GET beginner page. */
+router.get('/beginner', mainController.beginner)
+
+/* GET advanced page. */
+router.get('/advanced', mainController.advanced)
+
+/* GET intensive page. */
+router.get('/intensive', mainController.intensive)
+
 module.exports = router;

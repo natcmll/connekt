@@ -11,6 +11,15 @@ const mainController = {
     },
     delete:(req,res,next) =>{
         res.render('delete')
+    },
+    advanced:(req, res, next) => {
+        res.render("advanced")
+    },
+    beginner:(req, res, next) => {
+        res.render("beginner")
+    },
+    intensive:(req, res, next) => {
+        res.render("intensive")
     }
 }
 
